@@ -30,18 +30,22 @@
 	font-size: 18px;
 	font-weight: 400;
 	line-height: 18px;
-	color: var(--title-color2);
+	color: var(--not-background-title);
 	margin-top: 20px;
 	padding: 1.5px 13px;
 }
 
+/*  */
+
 .header__theme-menu-item:hover {
-	border: var(--btn-border);
+	outline: var(--btn-border);
 }
 
 .link:hover {
 	border-bottom: 1px solid var(--link-underline);
 }
+
+/*  */
 
 .header__theme-menu-button {
 	background-color: transparent;
@@ -69,8 +73,8 @@
 .decorated-zone::before {
 	position: absolute;
 	content: '';
-	border-bottom: 1px solid var(--title-color2);
-	border-left: 1px solid var(--title-color2);
+	border-bottom: 1px solid var(--border-color);
+	border-left: 1px solid var(--border-color);
 	width: 25px;
 	height: 25px;
 	left: 20px;
@@ -80,8 +84,8 @@
 .decorated-zone::after {
 	position: absolute;
 	content: '';
-	border-top: 1px solid var(--title-color2);
-	border-right: 1px solid var(--title-color2);
+	border-top: 1px solid var(--border-color);
+	border-right: 1px solid var(--border-color);
 	width: 25px;
 	height: 25px;
 	right: 20px;
@@ -94,7 +98,7 @@
 	font-weight: 400;
 	line-height: 25px;
 	text-align: center;
-	color: var(--title-color2);
+	color: var(--decorated-color);
 	top: 20px;
 	right: 45px;
 }
@@ -105,10 +109,10 @@
 	width: 10px;
 	height: 10px;
 	border-radius: 50%;
-	background-color: var(--title-color2);
+	background-color: var(--decorated-color);
 	top: 6px;
 	right: -13px;
-	box-shadow: 0 0 4px 2px var(--title-color2);
+	box-shadow: 0 0 4px 2px var(--decorated-color);
 }
 
 .main {
@@ -124,7 +128,7 @@
 }
 
 .section__title {
-	color: var(--title-color2);
+	color: var(--not-background-title);
 	width: 33%;
 	font-size: 18px;
 	font-weight: 700;
@@ -157,7 +161,8 @@
 .article__list__not-flex {
 	display: flex;
 	flex-direction: row;
-	gap: 20px;
+	gap: 19px;
+	flex-wrap: wrap;
 }
 
 .section__not-flex {
@@ -167,8 +172,8 @@
 	gap: 20px;
 }
 
-.article {
-	min-width: 315px;
+.article_width {
+	width: 32%;
 }
 
 .article__sub-title {
@@ -325,7 +330,7 @@
 		font-size: clamp(7.25rem, 7.0115rem + 1.0178vw, 7.5rem);
 		font-weight: 700;
 		line-height: 95.7px;
-		margin-top: 65px;
+		margin-top: 70px;
 		margin-left: 10px;
 	}
 
@@ -337,7 +342,7 @@
 	}
 
 	.header {
-		padding-bottom: 55px;
+		padding-bottom: 66px;
 	}
 
 	.decorated-zone::after {
@@ -346,7 +351,7 @@
 	}
 
 	.decorated-zone:before {
-		bottom: -5px;
+		bottom: 10px;
 		left: 10px;
 	}
 
@@ -381,9 +386,7 @@
 	}
 
 	.main {
-		margin-right: 10px;
-		margin-left: 10px;
-		margin-bottom: 40px;
+		margin: 40px 10px;
 	}
 
 	.section__not-flex {
@@ -407,6 +410,6 @@
 	}
 
 	.footer {
-		padding: 260px 13px;
+		padding: 275px 13px;
 	}
 }

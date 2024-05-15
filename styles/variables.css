@@ -1,29 +1,37 @@
 @media (prefers-color-scheme: light) {
 	:root {
-		--header-title-color: rgba(255, 194, 230, 1);
-		--header-title-shadow: rgba(255, 0, 112, 1);
-		--title-background: rgba(255, 141, 203, 1);
-		--title-color: rgba(53, 52, 48, 1);
-		--title-color2: rgba(53, 52, 48, 1);
-		--text-color: rgba(53, 52, 48, 1);
-		--link-shadow: rgba(255, 141, 203, 1);
-		--btn-border:1px solid rgba(53, 52, 48, 1);
-		--link-underline:rgba(53, 52, 48, 1);
-		--background-img: url('../images/cover-image-dark.png');
+		--header-title-color: rgba(255, 194, 230, 1), #ffc2e6;
+		--header-title-shadow: rgba(255, 0, 112, 1), #ff0070;
+		--title-background: rgba(255, 141, 203, 1), #ff8dcb;
+		--title-color: rgba(53, 52, 48, 1), #353430;
+		--not-background-title: rgba(53, 52, 48, 1), #353430;
+		--text-color: rgba(53, 52, 48, 1), #353430;
+		--link-shadow: rgba(255, 141, 203, 1), #ff8dcb;
+		--btn-border: 1px solid rgba(53, 52, 48, 1), #353430;
+		--link-underline: rgba(53, 52, 48, 1), #353430;
+		--border-color: rgba(53, 52, 48, 1), #353430;
+		--decorated-color: rgba(53, 52, 48, 1), #353430;
+		--background-img: url('../images/cover-image-light.png');
+	}
+
+	.page.theme_light .header__rec {
+		display: none;
 	}
 }
 
 @media (prefers-color-scheme: dark) {
 	:root {
-		--header-title-color: rgba(219, 0, 255, 1);
-		--header-title-shadow: rgba(255, 0, 112, 1);
-		--title-background: rgba(255, 0, 112, 1);
-		--title-color: rgba(0, 0, 40, 1);
-		--title-color2: rgba(255, 0, 112, 1);
-		--text-color: rgba(241, 178, 206, 1);
-		--link-shadow: rgba(255, 0, 112, 1);
-		--btn-border:1px solid rgba(255, 0, 112, 1);
-		--link-underline:rgba(241, 178, 206, 1);
-		--background-img: url('../images/cover-image-light.png');
+		--header-title-color: rgba(219, 0, 255, 1), #db00ff;
+		--header-title-shadow: rgba(255, 0, 112, 1), #ff0070;
+		--title-background: rgba(255, 0, 112, 1), #ff0070;
+		--title-color: rgba(0, 0, 40, 1), #000028;
+		--not-background-title: rgba(255, 0, 112, 1), #ff0070;
+		--text-color: rgba(241, 178, 206, 1), #f1b2ce;
+		--link-shadow: rgba(255, 0, 112, 1), #ff0070;
+		--btn-border: 1px solid rgba(255, 0, 112, 1), #ff0070;
+		--link-underline: rgba(241, 178, 206, 1), #f1b2ce;
+		--border-color: rgba(255, 0, 112, 1), #ff0070;
+		--decorated-color: rgba(255, 0, 112, 1), #ff0070;
+		--background-img: url('../images/cover-image-dark.png');
 	}
 }
