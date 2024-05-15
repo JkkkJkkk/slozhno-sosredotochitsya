@@ -1,0 +1,22 @@
+/*
+  Специально для светлой темы при наличии класса.
+  Здесь окажутся стили, которые нужно переопределить принудительно,
+  переключая тему
+*/
+
+.page.theme_light {
+	--header-title-color: rgba(255, 194, 230, 1);
+	--header-title-shadow: rgba(255, 0, 112, 1);
+	--title-background: rgba(255, 141, 203, 1);
+	--title-color: rgba(53, 52, 48, 1);
+	--title-color2: rgba(53, 52, 48, 1);
+	--text-color: rgba(53, 52, 48, 1);
+	--link-shadow: rgba(255, 141, 203, 1);
+	--btn-border: 1px solid rgba(53, 52, 48, 1);
+	--link-underline:rgba(53, 52, 48, 1);
+	--background-img: url('../images/cover-image-light.png');
+}
+
+.page.theme_light .header__rec {
+	display: none;
+}
