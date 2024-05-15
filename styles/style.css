@@ -38,7 +38,6 @@
 	background-color: transparent;
 	background: none;
 	border: none;
-	padding: 0;
 	padding: 1.5px 13px;
 }
 
@@ -427,6 +426,6 @@
 	}
 
 	.footer {
-		padding: 275px 13px;
+		padding: 268px 13px;
 	}
 }
