@@ -1,10 +1,10 @@
-/* .page {
+.page {
 	background-image: var(--background-img);
 	background-repeat: no-repeat;
 	background-position: center;
 	background-size: cover;
 	background-attachment: fixed;
-} */
+}
 
 .header {
 	position: relative;
@@ -386,6 +386,10 @@
 
 	.section {
 		flex-direction: column;
+	}
+
+	.article-type-move {
+		margin-top: 20px;
 	}
 
 	.section__title {
