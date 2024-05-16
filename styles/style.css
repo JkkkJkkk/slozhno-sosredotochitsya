@@ -1,10 +1,10 @@
-.page {
+/* .page {
 	background-image: var(--background-img);
 	background-repeat: no-repeat;
 	background-position: center;
 	background-size: cover;
 	background-attachment: fixed;
-}
+} */
 
 .header {
 	position: relative;
@@ -42,11 +42,11 @@
 }
 
 .header__theme-menu-button_active {
-	border: 1px solid var(--border-color);
+	outline: 1px solid var(--border-color);
 }
 
 .header__theme-menu-button:hover {
-	outline: 1px solid var(--border-color);
+	outline: 1px solid var(--hover-color);
 }
 
 .header__theme-menu-button:focus-visible {
@@ -316,6 +316,10 @@
 
 	.section__move {
 		margin-top: 80px;
+	}
+
+	.section__title {
+		width: 30%;
 	}
 
 	.img-section {
