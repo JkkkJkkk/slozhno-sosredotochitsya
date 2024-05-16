@@ -10,7 +10,7 @@
 	position: relative;
 	padding-bottom: 134px;
 	height: 100vh;
-	width: 768px;
+	min-height: 768px;
 }
 
 .header__no-focus {
@@ -261,7 +261,7 @@
 	position: relative;
 	text-align: center;
 	height: 100vh;
-	width: 768px;
+	min-height: 768px;
 }
 
 .fotter__no-focus {
@@ -302,7 +302,7 @@
 	.header {
 		padding-bottom: 183px;
 		height: 100vh;
-		width: 1024px;
+		min-height: 1024px;
 	}
 
 	.article__list__not-flex {
@@ -339,7 +339,7 @@
 	.footer {
 		padding: 450px 20px;
 		height: 100vh;
-		width: 1024px;
+		min-height: 1024px;
 	}
 }
 
@@ -372,7 +372,7 @@
 	.header {
 		padding-bottom: 66px;
 		height: 100vh;
-		width: 668px;
+		min-height: 668px;
 	}
 
 	.decorated-zone::after {
@@ -446,6 +446,6 @@
 	.footer {
 		padding: 268px 13px;
 		height: 100vh;
-		width: 668px;
+		min-height: 668px;
 	}
 }
